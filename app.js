@@ -8,5 +8,5 @@ var handler = function(request, response){
     response.end("You'he hit "+os.hostname()+"\n");
 };
 
-var wwww = http.createServrer(handler);
+var wwww = http.createServer(handler);
 wwww.listen(8080)
